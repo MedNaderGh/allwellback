@@ -1,0 +1,8 @@
+node_modules/
+.env
+config.js
+key-file
+env.yaml
+env.txt
+functionsForUpdate.js
+.cache
