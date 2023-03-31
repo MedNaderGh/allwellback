@@ -140,7 +140,7 @@ exports.sendReset = async (req, res) => {
           moduleEmail.sendMail(
             email,
             {
-              url: `http://localhost:8080/#/confirmPassword?email=${btoa(
+              url: `https://aquamarine-cobbler-62711c.netlify.app/#/confirmPassword?email=${btoa(
                 email
               )}`,
             },
