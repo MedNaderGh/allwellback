@@ -11,7 +11,7 @@ exports.sendMail = async function (email, body, subject, type, fileName) {
     service: "FastMail",
     auth: {
       user: "allwell_support@fastmail.com",
-      pass: "yd6mkghz9v5m8h5a",
+      pass: `${process.env.password}`,
     },
   });
   /*****************get template******************/
